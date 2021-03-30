@@ -1,0 +1,16 @@
+1. git clone <repository-url>
+
+2. git status
+
+3. git add .
+
+4. git status 
+
+5. git commit -m 'added *** file'
+
+Note: If it is first time, do the following below.
+
+$ git config --global user.name "your name"
+$ git config --global user.email "your email"
+
+6. git push

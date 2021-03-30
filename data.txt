@@ -1,2 +1,54 @@
 this is some file.  
 added some new data here.
+
+'Installing Git
+'Creating GitHub account
+'Create a new respository including "Readme.txt" file.
+
+'Git Process
+
+--Create a folder
+--Open Cmd with created folder
+
+git clone RepositoryPath
+
+--open the folder and add "data.txt" file
+
+--Goto Cmd
+git status
+--you can see untracked files with red color
+
+git add data.txt
+
+git status
+--you can see tracked files with green color
+
+git commit -m "message"
+
+--first time email and username setup
+git config user.email "venufullstack21@gmail.com"
+git confit user.name "Venu Komaragiri"
+
+git push
+
+--if prompts(for the first time), provide username and password(which you have used to create a github account)
+--github UserName
+--github Password
+
+
+--Goto repository and refresh, you should see the "data.txt"
+--Yeah, you successfully pushed your changes to git repository.
+
+--make some changes to data.txt and save
+
+git status
+--you can see modified data.txt in red color
+
+git add . (to add all the changes at a time)
+
+git status
+--you can see modified data.txt in green color
+
+git commit -m "message"
+
+git push
